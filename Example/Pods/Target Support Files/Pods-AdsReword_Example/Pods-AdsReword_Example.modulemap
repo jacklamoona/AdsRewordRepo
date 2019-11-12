@@ -1,0 +1,6 @@
+framework module Pods_AdsReword_Example {
+  umbrella header "Pods-AdsReword_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

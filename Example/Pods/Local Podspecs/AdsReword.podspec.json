@@ -1,0 +1,22 @@
+{
+  "name": "AdsReword",
+  "version": "0.1.0",
+  "summary": "A short description of AdsReword.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jack/AdsReword",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jack": "jacklam.oona@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Jack/AdsReword.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AdsReword/Classes/**/*"
+}
