@@ -31,14 +31,14 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   s.static_framework = true
   s.source_files = 'AdsReword/Classes/**/*'
-  
+  s.vendored_frameworks = './AdsRewordCore.framework'
   # s.resource_bundles = {
   #   'AdsReword' => ['AdsReword/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-#   s.dependency 'Alamofire', '~> 4.8'
+#   s.dependency 'Alamofire', '~> 4.8' 
 #  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.dependency 'Alamofire', '4.8.0'
 #  s.dependency 'SDWebImage'

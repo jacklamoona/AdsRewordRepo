@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		043C99DC237E657D00A0566F /* AdsRewordCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043C99D9237E650D00A0566F /* AdsRewordCore.framework */; };
-		043C99DD237E657D00A0566F /* AdsRewordCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 043C99D9237E650D00A0566F /* AdsRewordCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -36,7 +34,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				043C99DD237E657D00A0566F /* AdsRewordCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,7 +41,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		043C99D9237E650D00A0566F /* AdsRewordCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdsRewordCore.framework; path = ../../AdsRewordCore.framework; sourceTree = "<group>"; };
 		1F955B00A4CDF080A8D8781E /* Pods_AdsReword_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdsReword_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* AdsReword_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdsReword_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,7 +68,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B04568EC0EF50A983CFB269 /* Pods_AdsReword_Example.framework in Frameworks */,
-				043C99DC237E657D00A0566F /* AdsRewordCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +119,6 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				043C99D9237E650D00A0566F /* AdsRewordCore.framework */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,

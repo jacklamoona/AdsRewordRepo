@@ -66,7 +66,7 @@
 
 /* Begin PBXFileReference section */
 		0428CC78E32F1686CDCF264948103768 /* Pods-AdsReword_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdsReword_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		043C99DB237E652000A0566F /* AdsRewordCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdsRewordCore.framework; path = Example/AdsReword/../../AdsRewordCore.framework; sourceTree = "<group>"; };
+		043C99DB237E652000A0566F /* AdsRewordCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdsRewordCore.framework; sourceTree = "<group>"; };
 		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		0C195F6043DAC0E5F85E040355EB87FF /* Pods-AdsReword_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdsReword_Example-frameworks.sh"; sourceTree = "<group>"; };
 		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
