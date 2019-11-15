@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043C99DC237E657D00A0566F /* AdsRewordCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043C99D9237E650D00A0566F /* AdsRewordCore.framework */; };
+		043C99DD237E657D00A0566F /* AdsRewordCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 043C99D9237E650D00A0566F /* AdsRewordCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -27,7 +29,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		043C99DE237E657D00A0566F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				043C99DD237E657D00A0566F /* AdsRewordCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		043C99D9237E650D00A0566F /* AdsRewordCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdsRewordCore.framework; path = ../../AdsRewordCore.framework; sourceTree = "<group>"; };
 		1F955B00A4CDF080A8D8781E /* Pods_AdsReword_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdsReword_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* AdsReword_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdsReword_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B04568EC0EF50A983CFB269 /* Pods_AdsReword_Example.framework in Frameworks */,
+				043C99DC237E657D00A0566F /* AdsRewordCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +124,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				043C99D9237E650D00A0566F /* AdsRewordCore.framework */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -171,6 +190,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				45412A45D6B3E3B1C8CE409F /* [CP] Embed Pods Frameworks */,
+				043C99DE237E657D00A0566F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,10 +233,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8YNZKTBV4H;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8YNZKTBV4H;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -497,6 +519,7 @@
 			baseConfigurationReference = BE07CFCCACF4C7B7524DFF28 /* Pods-AdsReword_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8YNZKTBV4H;
 				INFOPLIST_FILE = AdsReword/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -512,6 +535,7 @@
 			baseConfigurationReference = 88817A9B47A96799A9CFA3F6 /* Pods-AdsReword_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8YNZKTBV4H;
 				INFOPLIST_FILE = AdsReword/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -526,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5FD51470BEFC510ADB6D957 /* Pods-AdsReword_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 8YNZKTBV4H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -548,6 +573,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A76EA17FD8E27D75E1478979 /* Pods-AdsReword_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 8YNZKTBV4H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

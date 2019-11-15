@@ -41,8 +41,8 @@ TODO: Add long description of the pod here.
 #   s.dependency 'Alamofire', '~> 4.8'
 #  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.dependency 'Alamofire', '4.8.0'
-  s.dependency 'SDWebImage'
-  s.dependency 'YLProgressBar'
+#  s.dependency 'SDWebImage'
+#  s.dependency 'YLProgressBar'
   s.dependency 'SwiftyJSON', '~> 4.0'
   s.dependency 'SwiftyGif'
   s.dependency 'RxSwift'

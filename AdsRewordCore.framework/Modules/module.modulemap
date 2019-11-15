@@ -1,0 +1,4 @@
+framework module AdsRewordCore {
+  header "AdsRewordCore-Swift.h"
+  requires objc
+}
