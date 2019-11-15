@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AdsReword'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of AdsReword.'
 
 # This description is used to generate tags and improve search results.
@@ -20,16 +20,16 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
+                       
   s.homepage         = 'https://github.com/jacklamoona/AdsRewordRepo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jacklamoona' => 'jacklam.oona@gmail.com' }
-  s.source           = { :git => 'https://github.com/jacklamoona/AdsRewordReoi.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jacklamoona/AdsRewordRepo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.static_framework = true
   s.source_files = 'AdsReword/Classes/**/*'
   
   # s.resource_bundles = {
@@ -39,10 +39,10 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
 #   s.dependency 'Alamofire', '~> 4.8'
-   
+#  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.dependency 'Alamofire', '4.8.0'
-  s.dependency 'SDWebImage'
-  s.dependency 'YLProgressBar'
+#  s.dependency 'SDWebImage'
+#  s.dependency 'YLProgressBar'
   s.dependency 'SwiftyJSON', '~> 4.0'
   s.dependency 'SwiftyGif'
   s.dependency 'RxSwift'
