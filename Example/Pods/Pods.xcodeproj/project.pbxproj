@@ -14,7 +14,6 @@
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
 		1BFE3B43DDD706B8B0E5D6685AFEE3C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
-		3CB77C186D8A3EB4597BE2F7D9D9A69F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3468F13E8D34DFBF9DEA079AD4081158 /* ReplaceMe.swift */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5BA29D63631804AC4BC18EFC875A47B8 /* Pods-AdsReword_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C820C554E0422EBE9077DF8C5DD183BA /* Pods-AdsReword_Tests-dummy.m */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
@@ -77,7 +76,6 @@
 		1E772D5D38731C1633C7F690039DD6B6 /* Pods-AdsReword_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdsReword_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		27846606875978BB85E13C91F6061E94 /* Pods-AdsReword_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AdsReword_Tests.modulemap"; sourceTree = "<group>"; };
 		2E308D18B923BF9E675668E588EB65EF /* AdsReword.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AdsReword.modulemap; sourceTree = "<group>"; };
-		3468F13E8D34DFBF9DEA079AD4081158 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AdsReword/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		3B96CB1AFD7D6F610456025A752DD832 /* Pods-AdsReword_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdsReword_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3D3DBDDC663B2CB48BAC0F96E7F0B862 /* Pods-AdsReword_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AdsReword_Example.modulemap"; sourceTree = "<group>"; };
@@ -320,7 +318,6 @@
 			isa = PBXGroup;
 			children = (
 				043C99DB237E652000A0566F /* AdsRewordCore.framework */,
-				3468F13E8D34DFBF9DEA079AD4081158 /* ReplaceMe.swift */,
 				FAD9764EDF6D9B18A739EBE7878D2B6A /* Pod */,
 				E8683FAA37FE44A3184CB3A3CB4E1FF6 /* Support Files */,
 			);
@@ -574,7 +571,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7A2AA87D2AD36DEAC8AB7C5CC5E00FB /* AdsReword-dummy.m in Sources */,
-				3CB77C186D8A3EB4597BE2F7D9D9A69F /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

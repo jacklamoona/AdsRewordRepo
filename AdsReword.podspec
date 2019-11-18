@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AdsReword'
-  s.version          = '0.1.3'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of AdsReword.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   s.static_framework = true
   s.source_files = 'AdsReword/Classes/**/*'
-  s.vendored_frameworks = './AdsRewordCore.framework'
+  s.vendored_frameworks = 'AdsRewordCore.framework'
   # s.resource_bundles = {
   #   'AdsReword' => ['AdsReword/Assets/*.png']
   # }
