@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
   s.static_framework = true
-  s.source_files = 'AdsReword/Classes/**/*'
+#  s.source_files = 'AdsReword/Classes/**/*'
   s.vendored_frameworks = 'AdsRewordCore.framework'
   # s.resource_bundles = {
   #   'AdsReword' => ['AdsReword/Assets/*.png']
