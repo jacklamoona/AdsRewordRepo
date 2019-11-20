@@ -43,6 +43,7 @@ TODO: Add long description of the pod here.
   s.dependency 'Alamofire', '4.8.0'
 #  s.dependency 'SDWebImage'
 #  s.dependency 'YLProgressBar'
+  s.dependency 'Kingfisher', '~> 5.0'
   s.dependency 'SwiftyJSON', '~> 4.0'
   s.dependency 'SwiftyGif'
   s.dependency 'RxSwift'
